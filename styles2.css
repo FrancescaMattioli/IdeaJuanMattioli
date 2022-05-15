@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Martel-Regular";
+    src: url(../Fonts/Martel-Regular.ttf);
+    font-family: "Martel-Light";
+    src: url(../Fonts/Martel-ExtraLight.ttf)
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    min-height: 100vh
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: 90px 600px 20px;
+}
+
+.gridGaleria{
+    display: grid;
+    grid-template-columns: 100% 100% ;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+
+.main {
+    width: 100%;
+    margin-top: 2%;
+}
+
+/* .main__izquierda {
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+
+
+.main__derecha {
+    margin-left: 50%;
+    height: 450px;
+} */
+
+
+body {
+    font-family: "Martel-Regular";
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    font-family: "Martel-Light";
+}
+
+h3 {
+    color: black;
+    font-size: 15px;
+    font-family: "Martel-Light";
+}
+
+.navegacion {
+    padding: 2%;
+    background-color: rgb(252, 248, 200);
+    position: relative;
+    text-align: center;
+}
+
+
+.navegacion__marca{
+    display: inline;
+    text-decoration: overline;
+    color: white;
+    text-align: center;
+}
+
+.navegacion__links{
+    text-align: center;
+}
+
+.pie {
+    background-color: rgb(231, 197, 197);
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    position: absolute; 
+    width: 100%;
+    bottom: 0;
+}
+
+img{
+    max-width: 100% ;
+    max-height: 100%;
+    width: 300px;
+}
+
+.formulario { 
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(240, 231, 231);
+}
+
+.tabla__tienda{
+    background-color: rgb(240, 231, 231);
+    margin: 1%;
+}
+
+.informacion__titulo{
+    text-decoration: underline;
+}
+
+.informacin__parrafo{
+    font-size: small;
+}
+
+.tabla__caption{
+    font-style: italic;
+    font-size: small;
+    color: gray;
+}
+
+.mainGaleria{
+    height: 40%;
+    width: 40%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1024px){
+    .navegacion__links{
+        display: inline;
+        float: right;
+    }
+    .navegacion{
+        text-align: left;
+    }
+    .main__derecha{
+        float:right;
+    }
+    .gridContainer{
+        grid-template-rows: 50px 600px 30px;
+    }
+    .gridGaleria{
+        grid-template-columns: 100% 100% 100%;
+        grid-template-rows: 50% 50%;
+        grid-column-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .navegacion__links{
+        display: inline;
+        float: right;
+    }
+    .navegacion{
+        text-align: left;
+    }
+    .gridContainer{
+        grid-template-rows: 75px 600px 20px;
+    }
+}

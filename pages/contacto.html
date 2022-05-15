@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles2.css">
+    <link rel="shortcut Icon" href="../img/PlantIllustration.jpeg">
+    <title>CHESCA</title>
+</head>
+<body>
+    <header class="navegacion">    
+        <h1 class="navegacion__marca">CHESCA</h1>
+        <nav class="navegacion__links">
+            <style>
+                a { color: rgb(188, 121, 139); }
+            </style>
+            <a href="../index.html">HOME</a>
+            <a href="contacto.html">CONTACTO</a>
+            <a href="info.html">INFORMACION</a>
+            <a href="galeria.html">GALERIA</a>
+            <a href="tienda.html">TIENDA</a>
+        </nav>
+    </header>
+    </header>
+    <main>
+        <h2>Llená tus datos para contactarte :)</h2>
+        <form class="formulario">
+            <div class="formulario__nombre">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div class="formulario__mail">
+                <label for="mail">Mail:</label>
+                <input type="email" id="mail" name="user_email">
+            </div>
+            <div class="formulario__tel">
+                <label for="phone">Tel:</label>
+                <input type="tel" id="phone" name="phone"
+                pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" 
+                required>
+            </div>
+            <div class="mensaje">
+                <label for="msg">Mensaje:</label>
+                <input type="text">
+            </div>
+            <div class="formulario__botones">
+                <input type="reset" value="Borrar formulario">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+    <footer class="pie">
+        <adress>
+        Redes Sociales: <a target="_blank" href="https://www.instagram.com/chescailustraciones/">@chescailustraciones</a>
+        <a target="_blank" href="https://www.instagram.com/chescamattioli/">@chescamattioli</a>
+        </adress>
+    </footer>
+</body>
+</html>
