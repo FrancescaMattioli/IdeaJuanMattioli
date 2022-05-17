@@ -34,19 +34,6 @@ body{
     margin-top: 2%;
 }
 
-/* .main__izquierda {
-    width: 50%;
-    height: 450px;
-    float: left;
-}
-
-
-.main__derecha {
-    margin-left: 50%;
-    height: 450px;
-} */
-
-
 body {
     font-family: "Martel-Regular";
 }
@@ -68,11 +55,11 @@ h3 {
     background-color: rgb(252, 248, 200);
     position: relative;
     text-align: center;
+    display: flex; flex-direction: row; justify-content: space-between;
 }
 
 
 .navegacion__marca{
-    display: inline;
     text-decoration: overline;
     color: white;
     text-align: center;
@@ -128,6 +115,16 @@ img{
     width: 40%;
 }
 
+.navegacion__links :hover{
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.pie :hover{
+    padding: 10px;
+    color: #ffffff;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width: 1024px){
@@ -147,7 +144,7 @@ img{
     .gridGaleria{
         grid-template-columns: 100% 100% 100%;
         grid-template-rows: 50% 50%;
-        grid-column-gap: 20px;
+        grid-column-gap: 10px;
     }
 }
 
