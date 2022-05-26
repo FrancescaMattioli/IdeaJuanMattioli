@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CHESCA</title>
-    <link rel="stylesheet" href="./css/styles2.css">
     <link rel="shortcut Icon" href="./img/PlantIllustration.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles2.css">
 </head>
+
 <body>
     <div class="gridContainer">
-        <header class="navegacion">    
+        <header class="navegacion">
             <h1 class="navegacion__marca">CHESCA</h1>
             <nav class="navegacion__links">
                 <style>
-                    a { color: rgb(188, 121, 139); }
+                    a {
+                        color: rgb(188, 121, 139);
+                    }
                 </style>
                 <a href="index.html">HOME</a>
                 <a href="./pages/contacto.html">CONTACTO</a>
@@ -23,19 +29,30 @@
                 <a href="./pages/tienda.html">TIENDA</a>
             </nav>
         </header>
-        <main class="main">
-            <div class="main__izquierda">
-                <h2>Bienvenidos!</h2>
+
+        <main class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Bienvenidos!</h2>
                     <h3>Esto es una visita a mis proyectos y mi arte </h3>
-            </div>
-            <div class="main__derecha">
-                <img class="imagenLogo" src="./img/PlantIllustration.jpeg" alt="Planta Ilustración">
+                </div>
+                <div class="col-md-6">
+                    <img class="imagenLogo" src="./img/PlantIllustration.jpeg" alt="Planta Ilustración">
+                </div>
             </div>
         </main>
+
         <footer class="pie">
             <adress>
-            Redes Sociales: <a target="_blank" href="https://www.instagram.com/chescailustraciones/">@chescailustraciones</a>
-            <a target="_blank" href="https://www.instagram.com/chescamattioli/">@chescamattioli</a>
+                Redes Sociales: <a target="_blank"
+                    href="https://www.instagram.com/chescailustraciones/">@chescailustraciones</a>
+                <a target="_blank" href="https://www.instagram.com/chescamattioli/">@chescamattioli</a>
             </adress>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
