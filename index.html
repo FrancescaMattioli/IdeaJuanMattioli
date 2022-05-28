@@ -9,50 +9,52 @@
     <link rel="shortcut Icon" href="./img/PlantIllustration.jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles2.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <div class="gridContainer">
-        <header class="navegacion">
-            <h1 class="navegacion__marca">CHESCA</h1>
-            <nav class="navegacion__links">
-                <style>
-                    a {
-                        color: rgb(188, 121, 139);
-                    }
-                </style>
-                <a href="index.html">HOME</a>
-                <a href="./pages/contacto.html">CONTACTO</a>
-                <a href="./pages/info.html">INFORMACION</a>
-                <a href="./pages/galeria.html">GALERIA</a>
-                <a href="./pages/tienda.html">TIENDA</a>
-            </nav>
-        </header>
-
-        <main class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Bienvenidos!</h2>
-                    <h3>Esto es una visita a mis proyectos y mi arte </h3>
-                </div>
-                <div class="col-md-6">
-                    <img class="imagenLogo" src="./img/PlantIllustration.jpeg" alt="Planta Ilustración">
-                </div>
+    <header class="navbar navbar-expand-sm">
+        <nav class="container-fluid">
+            <a class="navbar-brand" href="index.html">CHESCA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/info.html">INFORMACION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/galeria.html">GALERIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/tienda.html">TIENDA</a>
+                    </li>
+                </ul>
             </div>
-        </main>
+        </nav>
+    </header>
 
-        <footer class="pie">
-            <adress>
-                Redes Sociales: <a target="_blank"
-                    href="https://www.instagram.com/chescailustraciones/">@chescailustraciones</a>
-                <a target="_blank" href="https://www.instagram.com/chescamattioli/">@chescamattioli</a>
-            </adress>
-        </footer>
-    </div>
+    <main class="main container-fluid text-center">
+        <h1 class="margin">Bienvenidos!</h1>
+        <img src="./img/PlantIllustration.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Planta Ilustración" width="350"
+            height="350">
+        <p>Esto es una visita a mis proyectos y mi arte</p>
+    </main>
+
+    <footer class="footer container-fluid text-center">
+        <adress class="links">
+            Redes Sociales: <a target="_blank"
+                href="https://www.instagram.com/chescailustraciones/">@chescailustraciones</a>
+            <a target="_blank" href="https://www.instagram.com/chescamattioli/">@chescamattioli</a>
+        </adress>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 </body>
-
 </html>

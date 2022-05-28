@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Martel-Regular";
+    src: url(../Fonts/Martel-Regular.ttf);
+    font-family: "Martel-Light";
+    src: url(../Fonts/Martel-ExtraLight.ttf)
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: "Martel-Regular";
+    line-height: 1.8;
+}
+
+h1 {
+    color: black;
+    font-size: 20px;
+    font-family: "Martel-Light";
+}
+
+h2 {
+    color: black;
+    font-size: 15px;
+    font-family: "Martel-Light";
+}
+
+.main {
+    background-color: white;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.navbar {
+    background-color: rgb(252, 248, 200);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar a {
+    color: rgb(188, 121, 139)
+}
+
+.navbar-brand {
+    text-decoration: overline;
+    color: white;
+    text-align: center;
+}
+
+.navbar-nav li a:hover {
+    background-color: #ffffff;
+    color: #2f764b !important;
+}
+
+.footer {
+    background-color: rgb(231, 197, 197);
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    position: absolute; 
+    width: 100%;
+    bottom: 0;
+}
+
+.footer :hover{
+    color: #ffffff;
+}
+
+.links a {
+    text-decoration: none;
+    color: #2f764b;
+}
+
+.formulario div { 
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(240, 231, 231);
+}
+
+.tabla__tienda{
+    background-color: rgb(240, 231, 231);
+    margin: 1%;
+}
+
+.tabla__caption{
+    font-style: italic;
+    font-size: small;
+    color: gray;
+    text-align: center;
+}

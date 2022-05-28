@@ -1,48 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles2.css">
-    <link rel="shortcut Icon" href="../img/PlantIllustration.jpeg">
     <title>CHESCA</title>
+    <link rel="shortcut Icon" href="../img/PlantIllustration.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body class="gridContainer">
-    <header class="navegacion">    
-        <h1 class="navegacion__marca">CHESCA</h1>
-        <nav class="navegacion__links">
-            <style>
-                a { color: rgb(188, 121, 139); }
-            </style>
-            <a href="../index.html">HOME</a>
-            <a href="contacto.html">CONTACTO</a>
-            <a href="info.html">INFORMACION</a>
-            <a href="galeria.html">GALERIA</a>
-            <a href="tienda.html">TIENDA</a>
+
+<body>
+    <header class="navbar navbar-expand-sm">
+        <nav class="container-fluid">
+            <a class="navbar-brand" href="../index.html">CHESCA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">INFORMACION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">GALERIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">TIENDA</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main class="mainGaleria">
-        <div>
-            <h2>GALERIA</h2>
-        </div>
-        <div class="gridGaleria" class="mainGaleria__imagenes">
-            <img class=imagen__entralazadas src="../img/Galeria_1.jpeg" alt="manosEntrelazadas">
-            <img src="../img/Galeria_2.jpeg" alt="manoConFlor">
-            <img src="../img/Galeria_3.jpeg" alt="manoDerretida">
-            <img src="../img/Galeria_4.jpeg" alt="cara">
+
+    <main class="main container-fluid text-center">
+        <h1 class="margin">GALERIA</h1>
+        <div class="row row-cols-4">
+            <div class="col">
+                <img src="../img/Galeria_1.jpeg" class="img-responsive margin" style="width:100%" alt="manosEntrelazadas">
+            </div>
+            <div class="col">
+                <img src="../img/Galeria_2.jpeg" class="img-responsive margin" style="width:100%" alt="manoConFlor">
+            </div>
+            <div class="col">
+                <img src="../img/Galeria_3.jpeg" class="img-responsive margin" style="width:100%" alt="manoDerretida">
+            </div>
+            <div class="col">
+                <img src="../img/Galeria_4.jpeg" class="img-responsive margin" style="width:100%" alt="cara">
+            </div>
         </div>
     </main>
-    <footer class="pie">
-        <adress>
-        Redes Sociales: <a target="_blank" href="https://www.instagram.com/chescailustraciones/">@chescailustraciones</a>
-        <a target="_blank" href="https://www.instagram.com/chescamattioli/">@chescamattioli</a>
+
+    <footer class="footer container-fluid text-center">
+        <adress class="links">
+            Redes Sociales: <a target="_blank"
+                href="https://www.instagram.com/chescailustraciones/">@chescailustraciones</a>
+            <a target="_blank" href="https://www.instagram.com/chescamattioli/">@chescamattioli</a>
         </adress>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
