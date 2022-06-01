@@ -1,0 +1,16 @@
+.footer {
+    background-color: $rosaMedio;
+    color: $blanco;
+    text-align: center;
+    font-style: italic;
+    position: absolute; 
+    width: 100%;
+    bottom: 0;
+        a {
+            text-decoration: none;
+            color: $blanco;
+                &:hover {
+                    color: $verde;
+                }
+        }
+}

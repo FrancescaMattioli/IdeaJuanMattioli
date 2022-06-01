@@ -1,101 +1,75 @@
+* {
+  padding: 0;
+  margin: 0; }
+
 @font-face {
-    font-family: "Martel-Regular";
-    src: url(../Fonts/Martel-Regular.ttf);
-    font-family: "Martel-Light";
-    src: url(../Fonts/Martel-ExtraLight.ttf)
-} 
+  font-family: "Martel-Regular";
+  src: url(../Fonts/Martel-Regular.ttf);
+  font-family: "Martel-Light";
+  src: url(../Fonts/Martel-ExtraLight.ttf); }
 
-*{
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    min-height: 100vh;
-    overflow-x: hidden;
-    font-family: "Martel-Regular";
-    line-height: 1.8;
-}
-
-h1 {
-    color: black;
-    font-size: 20px;
-    font-family: "Martel-Light";
-}
-
-h2 {
-    color: black;
-    font-size: 15px;
-    font-family: "Martel-Light";
-}
-
-.main {
-    background-color: white;
-}
+/*Colores*/
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Martel-Regular";
+  line-height: 1.8;
+  background-color: #F5EFCD;
+  color: #6FA687; }
+  body h1 {
+    font-size: 20px; }
+  body h2 {
+    font-size: 15px; }
 
 .margin {
-    margin: 20px;
-}
+  margin-top: 20px; }
 
 .navbar {
-    background-color: rgb(252, 248, 200);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-}
-
-.navbar a {
-    color: rgb(188, 121, 139)
-}
+  background-color: #F27E93;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px; }
+  .navbar a {
+    color: #fcf7f8; }
+    .navbar a:hover {
+      background-color: #6FA687;
+      color: #F5EFCD; }
 
 .navbar-brand {
-    text-decoration: overline;
-    color: white;
-    text-align: center;
-}
+  text-decoration: overline;
+  color: #fcf7f8;
+  text-align: center; }
 
-.navbar-nav li a:hover {
-    background-color: #ffffff;
-    color: #2f764b !important;
-}
+.formulario div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #FFE3E7; }
+
+.tabla__tienda {
+  background-color: #FFE3E7;
+  margin: 1%;
+  color: #6FA687; }
+
+.tabla__caption {
+  font-style: italic;
+  font-size: small;
+  color: #F27E93;
+  text-align: center; }
 
 .footer {
-    background-color: rgb(231, 197, 197);
-    color: #ffffff;
-    text-align: center;
-    font-style: italic;
-    position: absolute; 
-    width: 100%;
-    bottom: 0;
-}
-
-.footer :hover{
-    color: #ffffff;
-}
-
-.links a {
+  background-color: #F2B6C1;
+  color: #fcf7f8;
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  width: 100%;
+  bottom: 0; }
+  .footer a {
     text-decoration: none;
-    color: #2f764b;
-}
-
-.formulario div { 
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: rgb(240, 231, 231);
-}
-
-.tabla__tienda{
-    background-color: rgb(240, 231, 231);
-    margin: 1%;
-}
-
-.tabla__caption{
-    font-style: italic;
-    font-size: small;
-    color: gray;
-    text-align: center;
-}
+    color: #fcf7f8; }
+    .footer a:hover {
+      color: #6FA687; }

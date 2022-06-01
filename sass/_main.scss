@@ -1,0 +1,18 @@
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: "Martel-Regular";
+    line-height: 1.8;
+    background-color: $amarillo;
+    color: $verde;
+        h1 {
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 15px;
+        }
+}
+
+.margin {
+    margin-top: 20px;
+}
